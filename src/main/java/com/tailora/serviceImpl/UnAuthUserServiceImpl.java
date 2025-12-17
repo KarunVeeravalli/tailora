@@ -2,6 +2,7 @@ package com.tailora.serviceImpl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -43,22 +44,24 @@ public class UnAuthUserServiceImpl implements UnAuthUserService{
 	}
 
 	@Override
-	public String editUnAuthUser(UserInputDto dto) throws UnAuthUserException {
-		// TODO Auto-generated method stub
-//		BeanUtils.copyProperties(user, user1, helper.getNullPropertyNames(user));
-		return null;
+	public String editUnAuthUser(UnAuthUser dto) throws UnAuthUserException {
+		UnAuthUser user1 = repo.findByEmail(dto.getEmail());
+		BeanUtils.copyProperties(dto, user1, helper.getNullPropertyNames(dto));
+		repo.save(user1);
+		return "SUCCESS";
 	}
 
 	@Override
 	public String deleteUnAuthUser(UserInputDto dto) throws UnAuthUserException {
-		// TODO Auto-generated method stub
-		return null;
+		UnAuthUser user = repo.findByEmail(dto.getEmail());
+		repo.deleteById(user.getId());
+		return "SUCCESS";
 	}
 
 	@Override
-	public String getUnAuthUser(UserInputDto dto) throws UnAuthUserException {
-		// TODO Auto-generated method stub
-		return null;
+	public UnAuthUser getUnAuthUser(UserInputDto dto) throws UnAuthUserException {
+		UnAuthUser user = repo.findByEmail(dto.getEmail());
+		return user;
 	}
 
 }
