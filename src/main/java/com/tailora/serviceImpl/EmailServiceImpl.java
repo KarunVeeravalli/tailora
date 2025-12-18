@@ -8,7 +8,6 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 import com.tailora.dto.request.EmailDto;
-import com.tailora.dto.request.OtpEntityDto;
 import com.tailora.exception.EmailException;
 import com.tailora.exception.OtpEntityException;
 import com.tailora.model.Email;
@@ -69,11 +68,11 @@ public class EmailServiceImpl implements EmailService {
 		mail.setToEmail(email.getToEmail());
 		repo.save(mail);
 		logger.info("<------ EmailServiceImpl : sendOtp otp => {} ------>",otp);
-		OtpEntityDto otpEntity = new OtpEntityDto();
+		OtpEntity otpEntity = new OtpEntity();
 		otpEntity.setDescription(email.getSubject());
 		otpEntity.setEmail(email.getToEmail());
 		otpEntity.setOtp(otp);
-		otpEntity.setRequestHeader(email.getRequestHeader());
+//		otpEntity.setRequestHeader(email.getRequestHeader());
 		try {
 			otpEntityService.saveOtp(otpEntity, request, response);
 		} catch (OtpEntityException e) {

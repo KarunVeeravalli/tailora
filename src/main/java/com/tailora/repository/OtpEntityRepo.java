@@ -7,10 +7,12 @@ import org.springframework.data.repository.query.Param;
 import com.tailora.model.OtpEntity;
 
 public interface OtpEntityRepo extends JpaRepository<OtpEntity, Long>{
-
+	
+	
 	@Query(value = "SELECT * from OTP_ENTITY where EMAIL = :email ORDER BY CREATED_DATE_TIME DESC LIMIT 1",nativeQuery = true)
 	OtpEntity getLastOtpByEmail(@Param("email") String email);
 	
 	@Query(value = "SELECT * from OTP_ENTITY where EMAIL = :email and DESCRIPTION = 'OTP FOR PASSWORD CHANGE' ORDER BY CREATED_DATE_TIME DESC LIMIT 1", nativeQuery = true)
 	OtpEntity getotpForPasswordChange(@Param("email") String email);
+
 }

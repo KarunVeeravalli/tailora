@@ -1,17 +1,20 @@
 package com.tailora.service;
 
-import com.tailora.dto.request.UserInputDto;
 import com.tailora.exception.UnAuthUserException;
+import com.tailora.exception.UserProfileException;
 import com.tailora.model.UnAuthUser;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 public interface UnAuthUserService {
 	
-	public String addUnAuthUser(UserInputDto dto) throws UnAuthUserException;
+	public UnAuthUser saveUser(UnAuthUser user, HttpServletRequest request, HttpServletResponse response) throws UnAuthUserException, UserProfileException;
 	
-	public String editUnAuthUser(UnAuthUser dto) throws UnAuthUserException;
+	public String deleteUser(String email, HttpServletRequest request, HttpServletResponse response) throws UnAuthUserException, UserProfileException;
 	
-	public String deleteUnAuthUser(UserInputDto dto) throws UnAuthUserException;
+	public UnAuthUser getUser(String email, HttpServletRequest request, HttpServletResponse response) throws UnAuthUserException;
 	
-	public UnAuthUser getUnAuthUser(UserInputDto dto) throws UnAuthUserException;
+	public UnAuthUser updateUser(UnAuthUser user, HttpServletRequest request, HttpServletResponse response) throws UnAuthUserException;
 
 }

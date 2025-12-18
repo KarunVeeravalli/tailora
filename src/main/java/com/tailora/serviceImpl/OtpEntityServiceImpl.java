@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.tailora.dto.request.OtpEntityDto;
+import com.tailora.enums.Status;
 import com.tailora.exception.OtpEntityException;
 import com.tailora.model.OtpEntity;
 import com.tailora.repository.OtpEntityRepo;
@@ -29,40 +30,39 @@ public class OtpEntityServiceImpl implements OtpEntityService{
 	private static final Logger logger = LogManager.getLogger(OtpEntityServiceImpl.class);
 
 	@Override
-	public void saveOtp(OtpEntityDto dto, HttpServletRequest request, HttpServletResponse response)
+	public void saveOtp(OtpEntity dto, HttpServletRequest request, HttpServletResponse response)
 			throws OtpEntityException {
-//		logger.info(helper.getRequestLogger(getClass(), "saveOtp", dto, dto.getRequestHeader().getTrackingId()));
+		logger.info("<------ OtpEntityServiceImpl : saveOtp (BEGIN) with request => {} ------>",dto);
 		try {
-			OtpEntity otp = new OtpEntity();
-			otp.setEmail(dto.getEmail());
-			otp.setOtp(dto.getOtp());
-			otp.setOtp(dto.getDescription());
-			repo.save(otp);
+			repo.save(dto);
+			logger.info("<------ OtpEntityServiceImpl : saveOtp (END) ------>");
 		} catch (Exception e) {
-			logger.info(e.getMessage());
+			logger.info("<------ OtpEntityServiceImpl : saveOtp (FAILED) ------>");
 		}
-//		logger.info(helper.getRequestLogger(getClass(), "saveOtp", dto, dto.getRequestHeader().getTrackingId()));
 	}
 
 	@Override
 	public OtpEntity getLastOtp(String email, HttpServletRequest request, HttpServletResponse response)
 			throws OtpEntityException {
 		OtpEntity otp = repo.getLastOtpByEmail(email);
+		System.out.println(otp +" otp is");
 		return otp;
 	}
 
 	@Override
-	public String checkOtp(OtpEntityDto dto, HttpServletRequest request, HttpServletResponse response)
+	public Status checkOtp(OtpEntity dto, HttpServletRequest request, HttpServletResponse response)
 			throws OtpEntityException {
+		System.out.println(dto.getEmail());
 		OtpEntity otp = repo.getLastOtpByEmail(dto.getEmail());
+		System.out.println(otp);
 		if(otp==null) {
 			throw new OtpEntityException("There is no otp found with the email----> "+dto.getEmail());
-		}else if(otp.getCreatedTime().plusMinutes(10).isBefore(LocalDateTime.now())) {
+		}else if(otp.getCreatedDateTime().plusMinutes(10).isBefore(LocalDateTime.now())) {
 			throw new OtpEntityException("Otp Expired please try again");
 		}else if(dto.getOtp().equals(otp.getOtp())) {
-			return "SUCCESS";
+			return Status.SUCCESS;
 		}
-		return "FAILED";
+		return Status.FAILED;
 	}
 
 }

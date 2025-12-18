@@ -9,14 +9,12 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class OtpEntity extends CommonClass {
+@NoArgsConstructor
+public class TempPassword extends CommonClass{
 	
 	private String email;
 	
-	private String otp;
-	
-	private String description;
-	
+	private String password;
+
 }

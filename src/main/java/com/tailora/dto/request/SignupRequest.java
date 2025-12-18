@@ -1,0 +1,29 @@
+package com.tailora.dto.request;
+
+
+import jakarta.annotation.Nonnull;
+import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class SignupRequest extends CommonRequest {
+	
+	@Nonnull
+	private String username;
+	
+	@NotNull
+	private String email;
+	
+	@NotNull
+	private String password;
+	
+	@NotNull
+	private String mobilenumber;
+	
+	
+	
+}

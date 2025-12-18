@@ -1,24 +1,25 @@
-2025-12-17 00:26:39,011 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
-2025-12-17 00:26:39,038 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:26:39,039 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
-2025-12-17 00:26:39,066 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-17 00:26:39,067 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-17 00:26:39,562 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:26:39,603 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
-2025-12-17 00:26:39,915 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:26:39,922 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:26:39,923 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:26:39,923 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:26:39,951 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:26:39,951 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 884 ms
-2025-12-17 00:26:40,024 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
-2025-12-17 00:26:40,133 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ffc9a3d6-fece-42f5-969d-085e83f16b17 user=SA
-2025-12-17 00:26:40,134 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
-2025-12-17 00:26:40,159 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:26:40,190 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-12-17 00:26:40,209 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:26:40,365 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:26:40,422 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+2025-12-19 00:24:16,853 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:24:16,879 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 18283 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:24:16,880 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:24:16,908 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:24:16,908 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:24:17,315 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:24:17,351 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:24:17,705 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:24:17,711 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:24:17,712 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:24:17,712 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:24:17,733 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:24:17,733 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 825 ms
+2025-12-19 00:24:17,803 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:24:17,826 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:24:17,841 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:24:17,951 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:24:17,965 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:24:18,075 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:24:18,077 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:24:18,088 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:24:18,099 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -26,410 +27,610 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:26:40,866 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:26:40,881 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:26:41,010 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:26:41,293 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ffc9a3d6-fece-42f5-969d-085e83f16b17'
-2025-12-17 00:26:41,327 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:26:41,341 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:26:41,350 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:26:41,356 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 2.588 seconds (process running for 2.977)
-2025-12-17 00:27:40,796 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-17 00:27:40,797 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
-2025-12-17 00:27:40,799 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
-2025-12-17 00:27:41,226 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-10] Init duration for springdoc-openapi is: 67 ms
-2025-12-17 00:28:00,870 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-12-17 00:28:00,874 INFO o.s.b.w.e.t.GracefulShutdown [Thread-5] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:28:00,876 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:28:00,880 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:28:00,881 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:28:00,885 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:28:00,893 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-5] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
-2025-12-17 00:28:00,894 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
-2025-12-17 00:28:00,895 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
-2025-12-17 00:28:00,973 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:28:00,974 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
-2025-12-17 00:28:01,065 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:28:01,069 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
-2025-12-17 00:28:01,148 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:28:01,149 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:28:01,149 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:28:01,149 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:28:01,160 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:28:01,160 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 184 ms
-2025-12-17 00:28:01,202 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
-2025-12-17 00:28:01,206 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:5110fa4e-e5f8-4da0-8862-1c064b8d292e user=SA
-2025-12-17 00:28:01,206 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
-2025-12-17 00:28:01,208 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:28:01,211 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:28:01,224 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:28:01,226 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+2025-12-19 00:24:18,621 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:24:18,650 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:24:18,879 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:24:19,119 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:24:19,119 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:24:19,204 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:24:19,530 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:24:19,559 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:24:19,586 WARN o.s.b.d.a.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2025-12-19 00:24:19,599 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:24:19,602 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-19 00:24:19,605 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:24:19,606 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2025-12-19 00:24:19,639 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2025-12-19 00:24:19,650 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-19 00:24:19,660 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-12-19 00:24:31,804 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:24:31,820 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 18367 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:24:31,821 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:24:31,856 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:24:31,856 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:24:32,343 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:24:32,381 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:24:32,709 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:24:32,716 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:24:32,717 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:24:32,717 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:24:32,738 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:24:32,738 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 882 ms
+2025-12-19 00:24:32,808 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:24:32,831 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:24:32,846 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:24:32,958 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:24:32,971 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:24:33,081 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:24:33,082 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:24:33,093 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:24:33,104 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:28:01,262 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:28:01,264 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:28:01,294 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:28:01,381 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5110fa4e-e5f8-4da0-8862-1c064b8d292e'
-2025-12-17 00:28:01,389 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:28:01,396 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:28:01,399 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:28:01,405 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.458 seconds (process running for 83.025)
-2025-12-17 00:28:01,407 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 00:28:06,325 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-17 00:28:06,326 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
-2025-12-17 00:28:06,327 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
-2025-12-17 00:28:06,545 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-4] Init duration for springdoc-openapi is: 38 ms
-2025-12-17 00:28:13,690 INFO c.t.s.UnAuthUserServiceImpl [http-nio-8080-exec-5] <------com.tailora.serviceImpl.UnAuthUserServiceImpl: addUnAuthUser (BEGINS) with request => {UserInputDto(username=null, email=null, password=null, mobileNumber=null) } ------>
-2025-12-17 00:31:00,082 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-12-17 00:31:00,084 INFO o.s.b.w.e.t.GracefulShutdown [Thread-7] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:31:00,085 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:31:00,086 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:31:00,087 INFO o.a.j.l.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:31:00,090 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:31:00,094 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-7] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
-2025-12-17 00:31:00,095 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
-2025-12-17 00:31:00,097 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
-2025-12-17 00:31:00,180 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:31:00,180 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
-2025-12-17 00:31:00,281 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:31:00,285 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
-2025-12-17 00:31:00,347 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:31:00,348 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:31:00,348 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:31:00,348 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:31:00,354 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:31:00,354 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 173 ms
-2025-12-17 00:31:00,372 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:31:00,374 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:31:00,378 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:31:00,379 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
-2025-12-17 00:31:00,397 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection conn20: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
-2025-12-17 00:31:00,398 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
-2025-12-17 00:31:00,398 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-17 00:31:00,399 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+2025-12-19 00:24:33,624 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:24:33,648 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:24:33,878 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:24:34,140 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:24:34,141 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:24:34,228 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:24:34,559 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:24:34,592 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:24:34,620 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 00:24:34,634 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:24:34,641 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:24:34,648 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.054 seconds (process running for 3.344)
+2025-12-19 00:24:47,769 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:24:47,769 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:24:47,770 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-12-19 00:24:47,840 INFO c.t.c.AuthenticationController [http-nio-8080-exec-1] <------ AuthenticationController : login (BEGIN) ------>
+2025-12-19 00:24:47,848 INFO c.t.c.AuthenticationController [http-nio-8080-exec-1] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 00:24:47,848 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-1] <------ UserLoginProfileServiceImpl : login (BEGIN) with request => LoginRequest(email=kkarun701@gmail.com, password=password) ------>
+2025-12-19 00:24:48,029 INFO c.t.c.AuthenticationController [http-nio-8080-exec-1] <------ AuthenticationController : login (FAILED) ------>
+2025-12-19 00:25:05,146 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:25:05,149 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(4)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:25:05,152 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:25:05,156 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-12-19 00:25:05,157 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:25:05,166 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:25:05,171 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2025-12-19 00:25:05,230 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2025-12-19 00:25:06,315 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:25:06,355 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 18521 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:25:06,355 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:25:06,380 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:25:06,380 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:25:06,935 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:25:06,972 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:25:07,298 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:25:07,308 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:25:07,309 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:25:07,310 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:25:07,340 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:25:07,340 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 959 ms
+2025-12-19 00:25:07,414 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:25:07,438 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:25:07,453 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:25:07,565 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:25:07,580 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:25:07,696 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:25:07,697 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:25:07,709 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:25:07,721 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:31:00,441 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:31:00,453 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:31:00,474 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:31:00,542 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
-2025-12-17 00:31:00,549 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:31:00,554 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:31:00,555 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:31:00,559 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.403 seconds (process running for 262.18)
-2025-12-17 00:31:00,561 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 00:31:10,966 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-12-17 00:31:10,969 INFO o.s.b.w.e.t.GracefulShutdown [Thread-12] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:31:10,970 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:31:10,972 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:31:10,973 INFO o.a.j.l.DirectJDKLog [Thread-12] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:31:10,976 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:31:10,977 INFO c.z.h.HikariDataSource [Thread-12] HikariPool-3 - Shutdown initiated...
-2025-12-17 00:31:10,989 INFO c.z.h.HikariDataSource [Thread-12] HikariPool-3 - Shutdown completed.
-2025-12-17 00:31:11,067 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:31:11,067 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
-2025-12-17 00:31:11,135 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:31:11,138 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
-2025-12-17 00:31:11,196 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:31:11,196 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:31:11,196 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:31:11,196 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:31:11,201 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:31:11,201 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 133 ms
-2025-12-17 00:31:11,218 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:31:11,219 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:31:11,223 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:31:11,224 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
-2025-12-17 00:31:11,228 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-4 - Added connection conn30: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
-2025-12-17 00:31:11,229 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
-2025-12-17 00:31:11,229 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-17 00:31:11,229 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+2025-12-19 00:25:08,264 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:25:08,288 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:25:08,549 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:25:08,797 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:25:08,797 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:25:08,894 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:25:09,250 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:25:09,280 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:25:09,309 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 00:25:09,324 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:25:09,332 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:25:09,339 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.287 seconds (process running for 3.579)
+2025-12-19 00:25:13,891 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:25:13,895 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(2)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:25:13,898 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:25:13,904 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-12-19 00:25:13,905 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:25:13,921 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:25:13,926 INFO c.z.h.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2025-12-19 00:25:13,996 INFO c.z.h.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2025-12-19 00:25:15,045 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:25:15,090 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 18616 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:25:15,090 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:25:15,109 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:25:15,109 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:25:15,591 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:25:15,629 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:25:15,935 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:25:15,940 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:25:15,941 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:25:15,942 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:25:15,962 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:25:15,962 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 852 ms
+2025-12-19 00:25:16,037 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:25:16,059 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:25:16,073 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:25:16,185 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:25:16,199 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:25:16,311 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:25:16,312 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:25:16,324 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:25:16,334 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:31:11,254 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:31:11,257 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:31:11,284 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:31:11,348 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
-2025-12-17 00:31:11,355 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:31:11,360 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:31:11,362 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:31:11,366 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.321 seconds (process running for 272.987)
-2025-12-17 00:31:11,367 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 00:32:48,626 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-6] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-17 00:32:48,626 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-6] Initializing Servlet 'dispatcherServlet'
-2025-12-17 00:32:48,628 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-6] Completed initialization in 2 ms
-2025-12-17 00:33:51,021 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-12-17 00:33:51,024 INFO o.s.b.w.e.t.GracefulShutdown [Thread-16] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:33:51,025 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:33:51,026 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:33:51,027 INFO o.a.j.l.DirectJDKLog [Thread-16] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:33:51,030 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-16] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:33:51,031 INFO c.z.h.HikariDataSource [Thread-16] HikariPool-4 - Shutdown initiated...
-2025-12-17 00:33:51,033 INFO c.z.h.HikariDataSource [Thread-16] HikariPool-4 - Shutdown completed.
-2025-12-17 00:33:51,158 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:33:51,158 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
-2025-12-17 00:33:51,224 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:33:51,227 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
-2025-12-17 00:33:51,283 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:33:51,283 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:33:51,283 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:33:51,283 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:33:51,287 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:33:51,287 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 128 ms
-2025-12-17 00:33:51,304 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:33:51,306 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:33:51,309 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:33:51,310 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Starting...
-2025-12-17 00:33:51,315 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-5 - Added connection conn41: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
-2025-12-17 00:33:51,315 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
-2025-12-17 00:33:51,315 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-17 00:33:51,315 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+2025-12-19 00:25:16,854 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:25:16,877 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:25:17,110 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:25:17,357 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:25:17,358 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:25:17,442 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:25:17,766 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:25:17,794 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:25:17,820 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 00:25:17,846 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:25:17,854 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:25:17,862 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.047 seconds (process running for 3.344)
+2025-12-19 00:25:22,107 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:25:22,107 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:25:22,108 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2025-12-19 00:25:22,178 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] <------ AuthenticationController : login (BEGIN) ------>
+2025-12-19 00:25:22,186 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 00:25:22,187 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-2] <------ UserLoginProfileServiceImpl : login (BEGIN) with request => LoginRequest(email=kkarun701@gmail.com, password=password) ------>
+2025-12-19 00:25:22,394 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] <------ AuthenticationController : login (FAILED) ------>
+2025-12-19 00:26:03,228 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:26:03,231 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(4)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:26:03,233 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:26:03,237 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-12-19 00:26:03,238 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:26:03,247 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:26:03,251 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2025-12-19 00:26:03,312 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2025-12-19 00:26:04,504 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:26:04,519 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 18722 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:26:04,520 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:26:04,542 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:26:04,542 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:26:04,972 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:26:05,009 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:26:05,324 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:26:05,330 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:26:05,331 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:26:05,331 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:26:05,352 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:26:05,352 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 810 ms
+2025-12-19 00:26:05,429 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:26:05,450 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:26:05,466 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:26:05,586 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:26:05,600 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:26:05,714 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:26:05,715 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:26:05,727 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:26:05,737 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:33:51,338 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:33:51,339 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:33:51,360 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:33:51,419 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
-2025-12-17 00:33:51,426 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:33:51,430 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:33:51,433 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:33:51,437 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.318 seconds (process running for 433.058)
-2025-12-17 00:33:51,438 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 00:34:09,855 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-12-17 00:34:09,857 INFO o.s.b.w.e.t.GracefulShutdown [Thread-20] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:34:09,857 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:34:09,859 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:34:09,859 INFO o.a.j.l.DirectJDKLog [Thread-20] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:34:09,861 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:34:09,862 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-5 - Shutdown initiated...
-2025-12-17 00:34:09,887 INFO c.z.h.HikariDataSource [Thread-20] HikariPool-5 - Shutdown completed.
-2025-12-17 00:34:09,951 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:34:09,952 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
-2025-12-17 00:34:10,029 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:34:10,033 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
-2025-12-17 00:34:10,091 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:34:10,091 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:34:10,091 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:34:10,091 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:34:10,096 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:34:10,096 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 143 ms
-2025-12-17 00:34:10,121 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:34:10,122 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:34:10,126 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:34:10,127 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Starting...
-2025-12-17 00:34:10,129 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-6 - Added connection conn51: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
-2025-12-17 00:34:10,130 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
-2025-12-17 00:34:10,130 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-17 00:34:10,130 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+2025-12-19 00:26:06,263 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:26:06,287 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:26:06,516 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:26:06,772 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:26:06,772 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:26:06,851 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:26:07,181 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:26:07,209 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:26:07,236 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 00:26:07,257 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:26:07,268 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:26:07,275 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.073 seconds (process running for 3.412)
+2025-12-19 00:26:10,665 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:26:10,665 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:26:10,666 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2025-12-19 00:26:10,739 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] <------ AuthenticationController : login (BEGIN) ------>
+2025-12-19 00:26:10,748 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 00:26:10,748 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-2] <------ UserLoginProfileServiceImpl : login (BEGIN) with request => LoginRequest(email=kkarun701@gmail.com, password=password) ------>
+2025-12-19 00:26:10,915 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] <------ AuthenticationController : login (FAILED) ------>
+2025-12-19 00:27:39,655 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(6)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:27:39,659 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(6)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:27:39,662 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:27:39,667 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-12-19 00:27:39,669 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(6)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:27:39,678 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(6)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:27:39,682 INFO c.z.h.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2025-12-19 00:27:39,739 INFO c.z.h.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2025-12-19 00:27:40,816 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:27:40,869 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 18875 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:27:40,870 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:27:40,900 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:27:40,900 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:27:41,393 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:27:41,433 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:27:41,751 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:27:41,758 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:27:41,759 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:27:41,759 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:27:41,781 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:27:41,781 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 881 ms
+2025-12-19 00:27:41,857 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:27:41,878 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:27:41,894 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:27:42,013 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:27:42,028 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:27:42,143 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:27:42,144 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:27:42,156 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:27:42,167 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:34:10,173 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:34:10,174 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:34:10,197 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:34:10,256 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
-2025-12-17 00:34:10,263 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:34:10,268 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:34:10,269 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:34:10,276 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.344 seconds (process running for 451.896)
-2025-12-17 00:34:10,277 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 00:34:32,706 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-12-17 00:34:32,708 INFO o.s.b.w.e.t.GracefulShutdown [Thread-24] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:34:32,709 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:34:32,710 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:34:32,711 INFO o.a.j.l.DirectJDKLog [Thread-24] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:34:32,713 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-24] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:34:32,715 INFO c.z.h.HikariDataSource [Thread-24] HikariPool-6 - Shutdown initiated...
-2025-12-17 00:34:32,729 INFO c.z.h.HikariDataSource [Thread-24] HikariPool-6 - Shutdown completed.
-2025-12-17 00:34:32,797 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:34:32,797 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
-2025-12-17 00:34:32,866 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:34:32,870 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
-2025-12-17 00:34:32,939 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:34:32,940 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:34:32,940 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:34:32,940 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:34:32,945 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:34:32,945 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 147 ms
-2025-12-17 00:34:32,963 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:34:32,964 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:34:32,968 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:34:32,969 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Starting...
-2025-12-17 00:34:32,972 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-7 - Added connection conn61: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
-2025-12-17 00:34:32,972 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
-2025-12-17 00:34:32,973 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-17 00:34:32,973 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+2025-12-19 00:27:42,723 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:27:42,766 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:27:42,997 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:27:43,240 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:27:43,241 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:27:43,325 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:27:43,659 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:27:43,686 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:27:43,712 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 00:27:43,727 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:27:43,735 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:27:43,741 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.175 seconds (process running for 3.468)
+2025-12-19 00:27:46,705 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:27:46,705 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:27:46,706 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2025-12-19 00:27:46,781 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] <------ AuthenticationController : login (BEGIN) ------>
+2025-12-19 00:27:46,791 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 00:27:46,792 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-2] <------ UserLoginProfileServiceImpl : login (BEGIN) with request => LoginRequest(email=kkarun701@gmail.com, password=password) ------>
+2025-12-19 00:27:46,962 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] <------ AuthenticationController : login (FAILED) ------>
+2025-12-19 00:29:02,484 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:29:02,487 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(4)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:29:02,489 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:29:02,492 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-12-19 00:29:02,493 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:29:02,498 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:29:02,500 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2025-12-19 00:29:02,563 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2025-12-19 00:29:03,715 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:29:03,750 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 19016 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:29:03,751 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:29:03,787 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:29:03,788 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:29:04,248 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:29:04,285 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:29:04,645 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:29:04,651 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:29:04,652 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:29:04,652 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:29:04,673 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:29:04,673 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 885 ms
+2025-12-19 00:29:04,746 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:29:04,767 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:29:04,782 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:29:04,900 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:29:04,914 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:29:05,028 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:29:05,029 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:29:05,040 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:29:05,051 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:34:32,997 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:34:32,998 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:34:33,019 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:34:33,078 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
-2025-12-17 00:34:33,084 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:34:33,090 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:34:33,095 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:34:33,098 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.32 seconds (process running for 474.719)
-2025-12-17 00:34:33,100 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 00:35:05,541 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-12-17 00:35:05,544 INFO o.s.b.w.e.t.GracefulShutdown [Thread-28] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:35:05,545 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:05,547 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:35:05,547 INFO o.a.j.l.DirectJDKLog [Thread-28] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:05,550 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-28] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:35:05,551 INFO c.z.h.HikariDataSource [Thread-28] HikariPool-7 - Shutdown initiated...
-2025-12-17 00:35:05,589 INFO c.z.h.HikariDataSource [Thread-28] HikariPool-7 - Shutdown completed.
-2025-12-17 00:35:05,671 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:35:05,671 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
-2025-12-17 00:35:05,746 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:35:05,749 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
-2025-12-17 00:35:05,813 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:35:05,813 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:05,813 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:35:05,813 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:35:05,818 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:35:05,818 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 145 ms
-2025-12-17 00:35:05,836 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:35:05,837 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:35:05,842 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:35:05,842 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Starting...
-2025-12-17 00:35:05,845 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-8 - Added connection conn71: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
-2025-12-17 00:35:05,846 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
-2025-12-17 00:35:05,846 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-17 00:35:05,847 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+2025-12-19 00:29:05,643 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:29:05,671 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:29:05,951 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:29:06,209 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:29:06,210 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:29:06,294 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:29:06,621 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:29:06,649 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:29:06,675 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 00:29:06,690 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:29:06,698 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:29:06,704 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.288 seconds (process running for 3.623)
+2025-12-19 00:29:11,053 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:29:11,053 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:29:11,054 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2025-12-19 00:29:11,136 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] <------ AuthenticationController : login (BEGIN) ------>
+2025-12-19 00:29:11,144 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 00:29:11,144 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-2] <------ UserLoginProfileServiceImpl : login (BEGIN) with request => LoginRequest(email=kkarun701@gmail.com, password=password) ------>
+2025-12-19 00:29:11,316 INFO c.t.c.AuthenticationController [http-nio-8080-exec-2] <------ AuthenticationController : login (FAILED) ------>
+2025-12-19 00:32:23,694 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 00:33:42,571 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:33:42,575 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(7)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:33:42,577 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:33:42,582 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-12-19 00:33:42,583 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(7)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:33:42,594 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(7)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:33:42,601 INFO c.z.h.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2025-12-19 00:33:42,686 INFO c.z.h.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2025-12-19 00:33:45,875 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:33:45,893 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 19568 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:33:45,894 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:33:45,916 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:33:45,916 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:33:46,424 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:33:46,465 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:33:46,851 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:33:46,858 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:33:46,859 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:33:46,860 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:33:46,883 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:33:46,883 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 967 ms
+2025-12-19 00:33:46,960 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:33:46,986 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:33:47,005 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:33:47,145 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:33:47,163 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:33:47,313 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:33:47,315 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:33:47,333 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:33:47,348 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:35:05,875 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:35:05,876 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:35:05,900 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:35:05,970 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
-2025-12-17 00:35:05,978 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:35:05,983 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:05,985 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:35:05,991 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.339 seconds (process running for 507.612)
-2025-12-17 00:35:05,992 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 00:35:17,402 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-12-17 00:35:17,404 INFO o.s.b.w.e.t.GracefulShutdown [Thread-32] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:35:17,405 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:17,407 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:35:17,407 INFO o.a.j.l.DirectJDKLog [Thread-32] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:17,410 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-32] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:35:17,411 INFO c.z.h.HikariDataSource [Thread-32] HikariPool-8 - Shutdown initiated...
-2025-12-17 00:35:17,438 INFO c.z.h.HikariDataSource [Thread-32] HikariPool-8 - Shutdown completed.
-2025-12-17 00:35:17,529 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:35:17,529 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
-2025-12-17 00:35:17,595 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:35:17,598 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
-2025-12-17 00:35:17,665 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:35:17,666 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:17,666 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:35:17,666 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:35:17,671 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:35:17,671 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 141 ms
-2025-12-17 00:35:17,689 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:35:17,690 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:35:17,694 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:35:17,694 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Starting...
-2025-12-17 00:35:17,697 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-9 - Added connection conn81: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
-2025-12-17 00:35:17,697 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
-2025-12-17 00:35:17,697 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-17 00:35:17,697 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+2025-12-19 00:33:48,022 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:33:48,060 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:33:48,363 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:33:48,676 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:33:48,677 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:33:48,780 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:33:49,167 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:33:49,197 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:33:49,225 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 00:33:49,241 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:33:49,250 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:33:49,257 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.642 seconds (process running for 4.152)
+2025-12-19 00:34:15,144 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:34:15,145 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-5] Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:34:15,148 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-5] Completed initialization in 3 ms
+2025-12-19 00:34:15,160 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 00:34:18,003 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 00:34:21,635 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 00:34:25,907 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 00:34:28,564 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 00:34:39,213 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 00:35:04,542 INFO c.t.c.AuthenticationController [http-nio-8080-exec-9] <------ AuthenticationController : login (BEGIN) ------>
+2025-12-19 00:35:04,551 INFO c.t.c.AuthenticationController [http-nio-8080-exec-9] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 00:35:04,551 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-9] <------ UserLoginProfileServiceImpl : login (BEGIN) with request => LoginRequest(email=kkarun701@gmail.com, password=password) ------>
+2025-12-19 00:37:02,069 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:37:02,075 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(7)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:37:02,078 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:37:09,997 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(8)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:37:12,060 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:37:20,191 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 00:37:20,207 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 19838 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 00:37:20,208 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 00:37:20,237 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 00:37:20,237 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 00:37:20,743 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 00:37:20,777 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 29 ms. Found 7 JPA repository interfaces.
+2025-12-19 00:37:21,103 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 00:37:21,109 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:37:21,110 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 00:37:21,110 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 00:37:21,131 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 00:37:21,131 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 894 ms
+2025-12-19 00:37:21,203 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 00:37:21,229 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 00:37:21,244 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 00:37:21,360 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 00:37:21,374 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 00:37:21,474 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 00:37:21,476 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 00:37:21,488 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 00:37:21,499 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:35:17,721 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:35:17,722 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:35:17,744 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:35:17,805 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
-2025-12-17 00:35:17,812 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:35:17,818 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:17,820 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:35:17,825 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.326 seconds (process running for 519.446)
-2025-12-17 00:35:17,826 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 00:35:23,223 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-12-17 00:35:23,225 INFO o.s.b.w.e.t.GracefulShutdown [Thread-36] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 00:35:23,226 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:23,227 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 00:35:23,228 INFO o.a.j.l.DirectJDKLog [Thread-36] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:23,230 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-36] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:35:23,232 INFO c.z.h.HikariDataSource [Thread-36] HikariPool-9 - Shutdown initiated...
-2025-12-17 00:35:23,265 INFO c.z.h.HikariDataSource [Thread-36] HikariPool-9 - Shutdown completed.
-2025-12-17 00:35:23,374 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 136268 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
-2025-12-17 00:35:23,374 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
-2025-12-17 00:35:23,442 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17 00:35:23,449 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
-2025-12-17 00:35:23,516 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
-2025-12-17 00:35:23,516 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:23,516 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2025-12-17 00:35:23,517 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-12-17 00:35:23,521 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2025-12-17 00:35:23,521 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 146 ms
-2025-12-17 00:35:23,538 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17 00:35:23,539 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
-2025-12-17 00:35:23,543 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-17 00:35:23,543 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-10 - Starting...
-2025-12-17 00:35:23,546 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-10 - Added connection conn91: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
-2025-12-17 00:35:23,546 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
-2025-12-17 00:35:23,546 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-17 00:35:23,546 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+2025-12-19 00:37:22,012 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 00:37:22,044 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:37:22,273 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 00:37:22,522 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 00:37:22,523 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 00:37:22,605 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 00:37:22,925 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 00:37:22,951 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 00:37:22,976 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 00:37:22,991 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:37:22,999 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 00:37:23,005 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.029 seconds (process running for 3.329)
+2025-12-19 00:37:35,048 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 00:37:35,048 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-12-19 00:37:35,049 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-12-19 00:37:35,161 INFO c.t.c.AuthenticationController [http-nio-8080-exec-1] <------ AuthenticationController : register (BEGIN) ------>
+2025-12-19 00:37:35,171 INFO c.t.c.AuthenticationController [http-nio-8080-exec-1] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 00:37:35,171 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-1] <------ UserLoginProfileServiceImpl : register (BEGIN) with request => SignupRequest(username=john_dose, email=kkarun701@gmail.com, password=password, mobilenumber=9876543201) ------>
+2025-12-19 00:37:35,282 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-1] <------ EmailServiceImpl : sendOtp (BEGIN) with request => EmailDto(toEmail=kkarun701@gmail.com, body=null, subject=One Time Password for your Regsistration) ------>
+2025-12-19 00:37:35,286 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-1] <------ EmailServiceImpl : sendOtp otp => 311785 ------>
+2025-12-19 00:37:35,287 INFO c.t.s.OtpEntityServiceImpl [http-nio-8080-exec-1] <------ OtpEntityServiceImpl : saveOtp (BEGIN) with request => OtpEntity(email=kkarun701@gmail.com, otp=311785, description=One Time Password for your Regsistration) ------>
+2025-12-19 00:37:35,289 INFO c.t.s.OtpEntityServiceImpl [http-nio-8080-exec-1] <------ OtpEntityServiceImpl : saveOtp (END) ------>
+2025-12-19 00:37:45,567 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-1] <------ EmailServiceImpl : sendOtp (SUCCESS) ------>
+2025-12-19 00:37:45,568 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-1] <------ UserLoginProfileServiceImpl : register (END) ----->
+2025-12-19 00:37:45,571 INFO c.t.c.AuthenticationController [http-nio-8080-exec-1] <------ AuthenticationController : register (END) ------>
+2025-12-19 00:38:04,547 INFO c.t.c.AuthenticationController [http-nio-8080-exec-3] <------ AuthenticationController : verifyOtpForRegister (BEGIN) ------>
+2025-12-19 00:38:04,550 INFO c.t.c.AuthenticationController [http-nio-8080-exec-3] user's tracking id is : 123e4567-e89b-12d3-a456-426614174000
+2025-12-19 00:38:04,554 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-3] <------ UserLoginProfileServiceImpl : verifyOtpForRegister (BEGIN) with request => OtpEntityDto(email=kkarun701@gmail.com, otp=311785, description=null) ------>
+2025-12-19 00:38:04,573 INFO c.t.s.UserProfileServiceImpl [http-nio-8080-exec-3] <------ UserProfileServiceImpl : addUser (BEGIN) ------>
+2025-12-19 00:38:04,576 INFO c.t.s.UserProfileServiceImpl [http-nio-8080-exec-3] <------ UserProfileServiceImpl : addUser (END) ------>
+2025-12-19 00:38:04,585 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-3] <------ EmailServiceImpl : sendOtp (BEGIN) with request => EmailDto(toEmail=kkarun701@gmail.com, body=Hi [User's Name],
+
+Thanks for registering with [YourAppName]!
+
+Your account has been successfully created. You're now part of a growing community of [your app's purpose – e.g., learners, creators, explorers, etc.].
+
+Here’s what you can do next:
+- Log in and explore your dashboard.
+- Complete your profile to get personalized recommendations.
+- Start using [key feature].
+
+If you have any questions or feedback, we’re just a click away.
+
+Welcome aboard!  
+The [YourAppName] Team
+, subject=Registration Successfull) ------>
+2025-12-19 00:38:06,448 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-3] <------ EmailServiceImpl : sendOtp (SUCCESS) ------>
+2025-12-19 00:38:06,449 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-3] <------ UserLoginProfileServiceImpl : verifyOtpForRegister (END) with response => SUCCESS ----->
+2025-12-19 00:38:06,453 INFO c.t.c.AuthenticationController [http-nio-8080-exec-3] <------ AuthenticationController : verifyOtpForRegister (END) ------>
+2025-12-19 00:38:26,570 INFO c.t.c.AuthenticationController [http-nio-8080-exec-4] <------ AuthenticationController : login (BEGIN) ------>
+2025-12-19 00:38:26,574 INFO c.t.c.AuthenticationController [http-nio-8080-exec-4] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 00:38:26,574 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-4] <------ UserLoginProfileServiceImpl : login (BEGIN) with request => LoginRequest(email=kkarun701@gmail.com, password=password) ------>
+2025-12-19 00:38:26,749 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-4] <------ EmailServiceImpl : sendOtp (BEGIN) with request => EmailDto(toEmail=kkarun701@gmail.com, body=Dear Customer,
+
+
+
+
+
+ There's been a new sign-in to your XXXX Application account associated with the email address 
+kkarun701@gmail.com,  on 2025-12-19T00:38:26.749150536.
+
+If this wasn't you, you need to change your E-com Application account password to protect your account.
+
+http://localhost:8080/api/auth/changePassword to change passwordIn case you have any queries / clarifications, please call us at our Customer Service number :
+
+8340018900
+8340018900
+
+
+
+
+
+
+ Thank You For Using our E-com Application :) , subject=Login Successfull) ------>
+2025-12-19 00:38:36,963 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-4] <------ EmailServiceImpl : sendOtp (SUCCESS) ------>
+2025-12-19 00:38:36,964 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-4] <------ UserLoginProfileServiceImpl : login (END) with response => eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJra2FydW43MDFAZ21haWwuY29tIiwiaWF0IjoxNzY2MDg0OTA2LCJleHAiOjE3NjYxNzEzMDZ9.CzJiUMB2o473AE01Egn47qbxhmu6ddU6A7EXWQ6tZuY -----> 
+2025-12-19 00:38:36,965 INFO c.t.c.AuthenticationController [http-nio-8080-exec-4] <------ AuthenticationController : login (END) ------>
+2025-12-19 00:39:24,439 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2025-12-19 00:39:24,444 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(4)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-19 00:39:24,446 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:39:24,449 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-12-19 00:39:24,450 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2025-12-19 00:39:24,461 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 00:39:24,467 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2025-12-19 00:39:24,497 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2025-12-19 01:19:52,150 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-12-19 01:19:52,174 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TailoraApplication using Java 17.0.1 with PID 20458 (/Userdisk/workspaces/P_Projects/Tailora/target/classes started by karunkumar in /Userdisk/workspaces/P_Projects/Tailora)
+2025-12-19 01:19:52,174 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "dev"
+2025-12-19 01:19:52,193 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-19 01:19:52,194 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-19 01:19:52,636 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19 01:19:52,672 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31 ms. Found 7 JPA repository interfaces.
+2025-12-19 01:19:53,040 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-12-19 01:19:53,046 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-19 01:19:53,047 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-12-19 01:19:53,047 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-19 01:19:53,069 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-12-19 01:19:53,070 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 876 ms
+2025-12-19 01:19:53,150 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19 01:19:53,181 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-19 01:19:53,197 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-12-19 01:19:53,314 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-19 01:19:53,328 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2025-12-19 01:19:53,443 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db user=ROOT
+2025-12-19 01:19:53,445 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2025-12-19 01:19:53,456 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-19 01:19:53,467 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-17 00:35:23,571 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-17 00:35:23,572 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 00:35:23,604 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17 00:35:23,662 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
-2025-12-17 00:35:23,668 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2025-12-17 00:35:23,673 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2025-12-17 00:35:23,675 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
-2025-12-17 00:35:23,682 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 0.349 seconds (process running for 525.303)
-2025-12-17 00:35:23,684 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
-2025-12-17 03:15:52,137 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(226)-127.0.0.1] Application shutdown requested.
-2025-12-17 03:15:52,138 INFO o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(226)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-17 03:15:52,139 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2025-12-17 03:15:52,140 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2025-12-17 03:15:52,141 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(226)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2025-12-17 03:15:52,144 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(226)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17 03:15:52,145 INFO c.z.h.HikariDataSource [RMI TCP Connection(226)-127.0.0.1] HikariPool-10 - Shutdown initiated...
-2025-12-17 03:15:52,158 INFO c.z.h.HikariDataSource [RMI TCP Connection(226)-127.0.0.1] HikariPool-10 - Shutdown completed.
+2025-12-19 01:19:53,995 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-19 01:19:54,019 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19 01:19:54,250 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-19 01:19:54,501 INFO o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [restartedMain] Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-19 01:19:54,502 WARN o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-12-19 01:19:54,585 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19 01:19:54,938 INFO o.s.b.a.h.H2ConsoleAutoConfiguration$H2ConsoleLogger [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/Userdisk/workspaces/P_Projects/Tailora/src/main/resources/tailora_db'
+2025-12-19 01:19:54,968 WARN o.s.s.c.a.w.b.WebSecurity [restartedMain] You are asking Spring Security to ignore Ant [pattern='/h2-console/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-12-19 01:19:54,995 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-12-19 01:19:55,010 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2025-12-19 01:19:55,017 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2025-12-19 01:19:55,024 INFO o.s.b.StartupInfoLogger [restartedMain] Started TailoraApplication in 3.119 seconds (process running for 3.454)
+2025-12-19 01:23:17,755 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-7] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-19 01:23:17,756 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-7] Initializing Servlet 'dispatcherServlet'
+2025-12-19 01:23:17,759 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-7] Completed initialization in 3 ms
+2025-12-19 01:23:17,775 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 01:24:20,129 ERROR c.t.s.s.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2025-12-19 01:28:49,136 INFO c.t.c.AuthenticationController [http-nio-8080-exec-4] <------ AuthenticationController : login (BEGIN) ------>
+2025-12-19 01:28:49,142 INFO c.t.c.AuthenticationController [http-nio-8080-exec-4] user's tracking id is : abcd1234-5678-90ef-ghij-klmnopqrstuv
+2025-12-19 01:28:49,143 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-4] <------ UserLoginProfileServiceImpl : login (BEGIN) with request => LoginRequest(email=kkarun701@gmail.com, password=password) ------>
+2025-12-19 01:28:49,323 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-4] <------ EmailServiceImpl : sendOtp (BEGIN) with request => EmailDto(toEmail=kkarun701@gmail.com, body=Dear Customer,
+
+
+
+
+
+ There's been a new sign-in to your XXXX Application account associated with the email address 
+kkarun701@gmail.com,  on 2025-12-19T01:28:49.323747825.
+
+If this wasn't you, you need to change your E-com Application account password to protect your account.
+
+http://localhost:8080/api/auth/changePassword to change passwordIn case you have any queries / clarifications, please call us at our Customer Service number :
+
+8340018900
+8340018900
+
+
+
+
+
+
+ Thank You For Using our E-com Application :) , subject=Login Successfull) ------>
+2025-12-19 01:29:01,193 INFO c.t.s.EmailServiceImpl [http-nio-8080-exec-4] <------ EmailServiceImpl : sendOtp (SUCCESS) ------>
+2025-12-19 01:29:01,194 INFO c.t.s.UserLoginProfileServiceImpl [http-nio-8080-exec-4] <------ UserLoginProfileServiceImpl : login (END) with response => eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJra2FydW43MDFAZ21haWwuY29tIiwiaWF0IjoxNzY2MDg3OTI5LCJleHAiOjE3NjYxNzQzMjl9.9KzxKo8DjECbJOsFpQjinmuELUZE4AnElZZpUvZky1I -----> 
+2025-12-19 01:29:01,195 INFO c.t.c.AuthenticationController [http-nio-8080-exec-4] <------ AuthenticationController : login (END) ------>

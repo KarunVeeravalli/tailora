@@ -62,7 +62,7 @@
 		<appender-ref ref="GEN_STAT_FILE" />
 	</logger>
 -->
-	<logger name="com.homeservice" level="INFO"/>
+	<logger name="com.tailoraservice" level="INFO"/>
 
 <!--	<logger name="xsdschematojavabeanschemmapper.logger" level="INFO" />
 	<logger name="com.github.mustachejava" level="INFO"/>

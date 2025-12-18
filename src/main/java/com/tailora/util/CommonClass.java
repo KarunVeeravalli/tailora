@@ -20,20 +20,20 @@ public class CommonClass {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+	protected Long id;
 	
 	@CreationTimestamp
-	private LocalDateTime createdTime;
+	private LocalDateTime createdDateTime;
 	
 	@UpdateTimestamp
 	private LocalDateTime updatedTime;
 	
-	@Length(max = 14,min = 14)
-	@Pattern(
-		    regexp = "^[A-Za-z0-9]{14}$",
-		    message = "CPT must be exactly 14 characters and contain only letters and numbers"
-		)
-	private String cpt;
+//	@Length(max = 14,min = 14)
+//	@Pattern(
+//		    regexp = "^[A-Za-z0-9]{14}$",
+//		    message = "CPT must be exactly 14 characters and contain only letters and numbers"
+//		)
+//	private String cpt;
 
 	public Long getId() {
 		return id;
@@ -43,12 +43,12 @@ public class CommonClass {
 		this.id = id;
 	}
 
-	public LocalDateTime getCreatedTime() {
-		return createdTime;
+	public LocalDateTime getCreatedDateTime() {
+		return createdDateTime;
 	}
 
-	public void setCreatedTime(LocalDateTime createdTime) {
-		this.createdTime = createdTime;
+	public void setCreatedDateTime(LocalDateTime createdDateTime) {
+		this.createdDateTime = createdDateTime;
 	}
 
 	public LocalDateTime getUpdatedTime() {
@@ -59,13 +59,13 @@ public class CommonClass {
 		this.updatedTime = updatedTime;
 	}
 
-	public String getCpt() {
-		return cpt;
-	}
-
-	public void setCpt(String cpt) {
-		this.cpt = cpt;
-	}
+//	public String getCpt() {
+//		return cpt;
+//	}
+//
+//	public void setCpt(String cpt) {
+//		this.cpt = cpt;
+//	}
 	
 	
 }
